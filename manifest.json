@@ -1,0 +1,11 @@
+{
+  "name": "Mobile Wikipedia",
+  "version": "1.0",
+  "description": "Redirect to mobile version of wikipedia",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "permissions": ["webRequest", "webRequestBlocking", "*://en.wikipedia.org/"],
+  "manifest_version": 2
+}
